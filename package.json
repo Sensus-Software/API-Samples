@@ -1,0 +1,23 @@
+{
+  "name": "api-samples",
+  "version": "1.0.0",
+  "description": "Welcome to the example repository of Sensus BPM Online API. To get access to the API one has to have a valid JWT generated.  Please refer tot the Sensus BPM Online help for information on generating JWT's.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sensus-Software/API-Samples.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Sensus-Software/API-Samples/issues"
+  },
+  "homepage": "https://github.com/Sensus-Software/API-Samples#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
