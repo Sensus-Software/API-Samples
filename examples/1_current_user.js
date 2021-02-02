@@ -10,7 +10,7 @@ const query = `
 }
 `
 
-request(query, {}).then(json => console.log(json))
+request(query, {}).then(json => console.log(JSON.stringify(json, null, "  ")))
 
 /* Expected output:
 {
