@@ -1,4 +1,4 @@
-import { request } from '../util.js'
+import { request } from './util.js'
 
 /* This example will get you the current user */
 
@@ -20,3 +20,5 @@ request(query, {}).then(json => console.log(json))
     }
   }
 } */
+
+//41eb4d099fb26656fcdca017d5ecb1e9767174ee
