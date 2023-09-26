@@ -52,3 +52,9 @@ All the examples are in JS and can be run from the command-line with Node.js.
 Only the `node-fetch` module is used, so be sure to run `npm install` before running any example. 
 The configuration is stored in a file called `config.js`. An example is placed in `config.example.js`. 
 Please rename that file to`config.js` and put in your own variables for the examples.
+
+## GraphiQL IDE
+
+[GraphiQL](https://github.com/graphql/graphiql/blob/main/packages/graphiql/README.md) is an official project under the GraphQL Foundation. 
+Using this IDE, you can use run the qraphQL queries in the browser. Just run graphiQL/index.html in your browser.
+It uses the same config.js file as the examples.
