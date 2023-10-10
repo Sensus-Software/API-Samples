@@ -2,10 +2,10 @@ import { request } from './util.js'
 
 /*
 Every entity is described by a GUID. However, when a concept project version is finalized in the new finalized version
-the guids are all different then in the concept. This is to retain uniqueness between versions. However, they still
+the guids are all different from those in the concept. This is to retain uniqueness between versions. However, they still
 contain an immutableGuid field, which is constant through versions.
 
-It is possible to fetch an icon both by guid as well as by immutable guid, which will be shown here.
+It is possible to fetch an icon both by guid and by immutable guid, which will be shown here.
 
 Important: There is no guarantee that immutableGuid and Guid are the same in the concept version.
  */
